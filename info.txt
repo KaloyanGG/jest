@@ -1,0 +1,14 @@
+xit = it.skip
+fit = it.only
+
+cli: jest --watchAll            <- watches the files for changes and on live starts the tests again
+
+/* istanbul ignore next */      <- for ignoring something from coverage
+
+Stub <- small piece of code that replaces another component during testing
+Fake <- provides predefined answers to method calls
+Spy  <- It means spy creates a partial object or a half dummy of the real object
+        by stubbing or spying the real ones. In spying, the real object remains unchanged, 
+        and we just spy some specific methods of it.
+Mock <- Mocking is a way to replace a dependency
+        in a unit under test with a stand-in for that dependency
